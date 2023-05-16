@@ -46,7 +46,6 @@ struct ScoreView: View {
                             .overlay() {
                                 Image(systemName: "plus")
                                     .imageScale(.large)
-                                    .bold()
                                     .foregroundColor(.gray)
                             }
                             .padding(.trailing, 20)
@@ -66,7 +65,6 @@ struct ScoreView: View {
                             .overlay() {
                                 Image(systemName: "minus")
                                     .imageScale(.large)
-                                    .bold()
                                     .foregroundColor(.gray)
                             }
                             .padding(.leading, 20)
