@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ScoreView: View {
+struct SingleGameCounterView: View {
     
     @Binding var maxHole: HoleType
     @State var score = Score()
@@ -17,7 +17,7 @@ struct ScoreView: View {
 
         VStack {
             HStack {
-                Image(systemName: "flag")
+                Image(systemName: "flag.fill")
                     .imageScale(.large)
                     .foregroundColor(.blue)
                 
@@ -43,7 +43,6 @@ struct ScoreView: View {
                         .overlay() {
                             Image(systemName: "plus")
                                 .imageScale(.large)
-                                .bold()
                                 .foregroundColor(.gray)
                         }
                 })
@@ -62,7 +61,6 @@ struct ScoreView: View {
                         .overlay() {
                             Image(systemName: "minus")
                                 .imageScale(.large)
-                                .bold()
                                 .foregroundColor(.gray)
                         }
                 })
@@ -90,8 +88,8 @@ struct ScoreView: View {
     
 }
 
-struct ScoreView_Previews: PreviewProvider {
+struct SingleGameCounterView_Previews: PreviewProvider {
     static var previews: some View {
-        ScoreView(maxHole: .constant(.Par5))
+        SingleGameCounterView(maxHole: .constant(.Par5))
     }
 }

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3922A89F2A0E16210047E8F0 /* SingleGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3922A89E2A0E16210047E8F0 /* SingleGameView.swift */; };
+		3922A8A12A0E300D0047E8F0 /* HoleScoreCounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3922A8A02A0E300D0047E8F0 /* HoleScoreCounterView.swift */; };
+		39BA809D2A0E0A1C00FE90F7 /* ScoreArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BA809C2A0E0A1C00FE90F7 /* ScoreArray.swift */; };
 		39EB510729F0C05B00885CEF /* GolfCounterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EB510629F0C05B00885CEF /* GolfCounterApp.swift */; };
 		39EB510929F0C05B00885CEF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EB510829F0C05B00885CEF /* ContentView.swift */; };
 		39EB510B29F0C05C00885CEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39EB510A29F0C05C00885CEF /* Assets.xcassets */; };
@@ -22,10 +25,15 @@
 		39EB514029F0C05C00885CEF /* GolfCounter_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EB513F29F0C05C00885CEF /* GolfCounter_Watch_AppTests.swift */; };
 		39EB514A29F0C05C00885CEF /* GolfCounter_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EB514929F0C05C00885CEF /* GolfCounter_Watch_AppUITests.swift */; };
 		39EB514C29F0C05C00885CEF /* GolfCounter_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EB514B29F0C05C00885CEF /* GolfCounter_Watch_AppUITestsLaunchTests.swift */; };
+		39EB65AB2A0DDBFC00F7AD15 /* ScoreDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EB65AA2A0DDBFC00F7AD15 /* ScoreDetail.swift */; };
+		39F3402B2A12237300D42139 /* ScoreListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F3402A2A12237300D42139 /* ScoreListView.swift */; };
+		39F3402D2A12270000D42139 /* ScoreSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F3402C2A12270000D42139 /* ScoreSetupView.swift */; };
+		39F3402F2A12271300D42139 /* HoleScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F3402E2A12271200D42139 /* HoleScoreView.swift */; };
+		39F340312A13250300D42139 /* DBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F340302A13250300D42139 /* DBHelper.swift */; };
 		39F630572A08D40900EC8EFB /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F630562A08D40900EC8EFB /* Score.swift */; };
 		39F6305D2A08E55800EC8EFB /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F6305C2A08E55800EC8EFB /* ScoreView.swift */; };
 		39F630632A09D99B00EC8EFB /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F630622A09D99B00EC8EFB /* Score.swift */; };
-		39F630652A09D9C800EC8EFB /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F630642A09D9C800EC8EFB /* ScoreView.swift */; };
+		39F630652A09D9C800EC8EFB /* SingleGameCounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F630642A09D9C800EC8EFB /* SingleGameCounterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,18 +77,21 @@
 /* Begin PBXCopyFilesBuildPhase section */
 		39EB515229F0C05C00885CEF /* Embed Watch Content */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
 				39EB512A29F0C05C00885CEF /* GolfCounter Watch App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3922A89E2A0E16210047E8F0 /* SingleGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleGameView.swift; sourceTree = "<group>"; };
+		3922A8A02A0E300D0047E8F0 /* HoleScoreCounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoleScoreCounterView.swift; sourceTree = "<group>"; };
+		39BA809C2A0E0A1C00FE90F7 /* ScoreArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreArray.swift; sourceTree = "<group>"; };
 		39EB510329F0C05B00885CEF /* GolfCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GolfCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39EB510629F0C05B00885CEF /* GolfCounterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolfCounterApp.swift; sourceTree = "<group>"; };
 		39EB510829F0C05B00885CEF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -101,10 +112,15 @@
 		39EB514529F0C05C00885CEF /* GolfCounter Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GolfCounter Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		39EB514929F0C05C00885CEF /* GolfCounter_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolfCounter_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		39EB514B29F0C05C00885CEF /* GolfCounter_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolfCounter_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		39EB65AA2A0DDBFC00F7AD15 /* ScoreDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreDetail.swift; sourceTree = "<group>"; };
+		39F3402A2A12237300D42139 /* ScoreListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreListView.swift; sourceTree = "<group>"; };
+		39F3402C2A12270000D42139 /* ScoreSetupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreSetupView.swift; sourceTree = "<group>"; };
+		39F3402E2A12271200D42139 /* HoleScoreView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoleScoreView.swift; sourceTree = "<group>"; };
+		39F340302A13250300D42139 /* DBHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBHelper.swift; sourceTree = "<group>"; };
 		39F630562A08D40900EC8EFB /* Score.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
 		39F6305C2A08E55800EC8EFB /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
 		39F630622A09D99B00EC8EFB /* Score.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
-		39F630642A09D9C800EC8EFB /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
+		39F630642A09D9C800EC8EFB /* SingleGameCounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleGameCounterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +169,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		399EF4762A0B2777007109D7 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				39F340302A13250300D42139 /* DBHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		39EB50FA29F0C05B00885CEF = {
 			isa = PBXGroup;
 			children = (
@@ -219,6 +243,7 @@
 		39EB512D29F0C05C00885CEF /* GolfCounter Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				399EF4762A0B2777007109D7 /* Helper */,
 				39F630612A09D98200EC8EFB /* Views */,
 				39F630602A09D97C00EC8EFB /* Model */,
 				39EB512E29F0C05C00885CEF /* GolfCounterApp.swift */,
@@ -274,6 +299,8 @@
 			isa = PBXGroup;
 			children = (
 				39F630622A09D99B00EC8EFB /* Score.swift */,
+				39EB65AA2A0DDBFC00F7AD15 /* ScoreDetail.swift */,
+				39BA809C2A0E0A1C00FE90F7 /* ScoreArray.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -282,7 +309,12 @@
 			isa = PBXGroup;
 			children = (
 				39EB513029F0C05C00885CEF /* ContentView.swift */,
-				39F630642A09D9C800EC8EFB /* ScoreView.swift */,
+				39F630642A09D9C800EC8EFB /* SingleGameCounterView.swift */,
+				3922A89E2A0E16210047E8F0 /* SingleGameView.swift */,
+				39F3402A2A12237300D42139 /* ScoreListView.swift */,
+				39F3402C2A12270000D42139 /* ScoreSetupView.swift */,
+				39F3402E2A12271200D42139 /* HoleScoreView.swift */,
+				3922A8A02A0E300D0047E8F0 /* HoleScoreCounterView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -537,10 +569,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39F3402F2A12271300D42139 /* HoleScoreView.swift in Sources */,
+				39BA809D2A0E0A1C00FE90F7 /* ScoreArray.swift in Sources */,
 				39EB513129F0C05C00885CEF /* ContentView.swift in Sources */,
-				39F630652A09D9C800EC8EFB /* ScoreView.swift in Sources */,
+				39EB65AB2A0DDBFC00F7AD15 /* ScoreDetail.swift in Sources */,
+				3922A8A12A0E300D0047E8F0 /* HoleScoreCounterView.swift in Sources */,
+				39F630652A09D9C800EC8EFB /* SingleGameCounterView.swift in Sources */,
 				39F630632A09D99B00EC8EFB /* Score.swift in Sources */,
+				39F340312A13250300D42139 /* DBHelper.swift in Sources */,
+				39F3402B2A12237300D42139 /* ScoreListView.swift in Sources */,
 				39EB512F29F0C05C00885CEF /* GolfCounterApp.swift in Sources */,
+				3922A89F2A0E16210047E8F0 /* SingleGameView.swift in Sources */,
+				39F3402D2A12270000D42139 /* ScoreSetupView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -642,11 +682,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
 			};
 			name = Debug;
 		};
@@ -694,10 +736,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
 			};
 			name = Release;
 		};
@@ -707,18 +751,20 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 202305111;
 				DEVELOPMENT_ASSET_PATHS = "\"GolfCounter Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = P2TU28W32L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = GolfCounter;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.yj.GolfCounter;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yj.GolfCounter.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
@@ -726,7 +772,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
 			};
 			name = Debug;
 		};
@@ -736,18 +782,20 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 202305111;
 				DEVELOPMENT_ASSET_PATHS = "\"GolfCounter Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = P2TU28W32L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = GolfCounter;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.yj.GolfCounter;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yj.GolfCounter.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
@@ -756,7 +804,7 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
 			};
 			name = Release;
 		};
@@ -767,28 +815,33 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 202305111;
 				DEVELOPMENT_ASSET_PATHS = "\"GolfCounter/Preview Content\"";
+				DEVELOPMENT_TEAM = P2TU28W32L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = GolfCounter;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yj.GolfCounter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -799,28 +852,33 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 202305111;
 				DEVELOPMENT_ASSET_PATHS = "\"GolfCounter/Preview Content\"";
+				DEVELOPMENT_TEAM = P2TU28W32L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = GolfCounter;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yj.GolfCounter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

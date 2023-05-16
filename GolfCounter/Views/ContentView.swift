@@ -46,7 +46,6 @@ struct ContentView: View {
                             .bold()
                             .foregroundColor(.gray)
                     }.padding(.bottom)
-        
                     
                     NavigationLink(destination: ScoreView(maxHole: $maxHole)) {
                         Text("확인")
